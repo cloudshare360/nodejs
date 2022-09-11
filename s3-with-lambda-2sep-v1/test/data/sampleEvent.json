@@ -1,0 +1,38 @@
+{
+  "Records": [
+    {
+      "eventVersion": "2.1",
+      "eventSource": "aws:s3",
+      "awsRegion": "us-east-1",
+      "eventTime": "2022-09-03T03:24:26.475Z",
+      "eventName": "ObjectCreated:Put",
+      "userIdentity": {
+        "principalId": "A305XPNKDANNK7"
+      },
+      "requestParameters": {
+        "sourceIPAddress": "107.220.176.188"
+      },
+      "responseElements": {
+        "x-amz-request-id": "1VE85HX9EZVX21H3",
+        "x-amz-id-2": "Mw6scB2AYHgivX94OrecVxeXJUMdXwd5vja4V6QqyExNyUJWdnXyl0rOHPoiw9qKdaVhEy7wouE6UXITGZmbl3hV64tg5jZPGYyQv/vVh5g="
+      },
+      "s3": {
+        "s3SchemaVersion": "1.0",
+        "configurationId": "s3-with-lambda-v3-dev-assetingestionv3-60af9c4c9230acd8c32e15324d0f5384",
+        "bucket": {
+          "name": "asset-injection-bucket-v3",
+          "ownerIdentity": {
+            "principalId": "A305XPNKDANNK7"
+          },
+          "arn": "arn:aws:s3:::asset-injection-bucket-v3"
+        },
+        "object": {
+          "key": "oracle-assetId.csv",
+          "size": 554,
+          "eTag": "b0aba7990167cc88aebf058d27033bcc",
+          "sequencer": "006312C8EA6B404314"
+        }
+      }
+    }
+  ]
+}

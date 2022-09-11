@@ -1,0 +1,9 @@
+{
+  AcceptRanges: 'bytes',
+  LastModified: 2022-09-02T16:22:23.000Z,
+  ContentLength: 554,
+  ETag: '"b0aba7990167cc88aebf058d27033bcc"',
+  ContentType: 'text/csv',
+  Metadata: {},
+  Body: <Buffer ef bb bf 64 62 5f 74 79 70 65 2c 64 62 5f 6e 61 6d 65 2c 64 62 5f 75 6e 69 71 75 65 5f 6e 61 6d 65 2c 64 62 5f 70 6f 72 74 2c 68 6f 73 74 5f 6e 61 6d ... 504 more bytes>
+}

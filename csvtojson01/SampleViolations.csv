@@ -1,0 +1,116 @@
+﻿Check ID,"IP Address, Port, Instance",Check Category,Check,Risk DV,Details,Description,Summary,Overview,Versions,Fix Desc,Reference
+505,"gbl-pcats1.unix.gsm1900.org, 7228, ",Weak Passwords,Default database password,Low,Password=*****;Username=MDDATA;Status=EXPIRED & LOCKED,A default database password has not been changed.,"Oracle is installed with a list of well-known usernames and passwords. If a default password has not been changed, an attacker can easily break into a database.","There is a large number of well-known account/password combinations that can be used by an attacker to break into a database. 
+
+These account/password combinations are created from several sources:
+
+1 - installed by default with the database
+2 - installed when additional components or 3rd party applications are installed
+3 - installed when running samples
+
+After installing a database, you should immediately change any default usernames and passwords.",All versions of Oracle Database Server,"A password can be changed by executing this command:
+
+ALTER USER [username] IDENTIFIED BY [new password]
+
+If the user is a COMMON user in a multitenant database, command should be executed on the root.
+
+Any accounts you do not need, should be deleted. Accounts that you do need should be renamed if possible.
+
+Passwords should follow the following best practices in order to provide good security and prevent brute forcing attacks:
+
+- Be at least 8 characters or more in length
+- Can not be found in a dictionary
+- Contain a combination of upper and lower case letters, numbers and special characters
+- Are not the same or similar to the username
+","http://www.oracle.com/pls/db111/db111.drilldown?remark=&word=default+passwords&expand_all=1,http://www.oracle.com/pls/db92/db92.drilldown?remark=&word=default+passwords&expand_all=1,https://docs.oracle.com/cd/B28359_01/server.111/b28320/statviews_5074.htm#REFRN23725"
+505,"gbl-pcats1.unix.gsm1900.org, 7228, ",Weak Passwords,Default database password,Low,Password=*****;Username=OWBSYS_AUDIT;Status=EXPIRED & LOCKED,A default database password has not been changed.,"Oracle is installed with a list of well-known usernames and passwords. If a default password has not been changed, an attacker can easily break into a database.","There is a large number of well-known account/password combinations that can be used by an attacker to break into a database. 
+
+These account/password combinations are created from several sources:
+
+1 - installed by default with the database
+2 - installed when additional components or 3rd party applications are installed
+3 - installed when running samples
+
+After installing a database, you should immediately change any default usernames and passwords.",All versions of Oracle Database Server,"A password can be changed by executing this command:
+
+ALTER USER [username] IDENTIFIED BY [new password]
+
+If the user is a COMMON user in a multitenant database, command should be executed on the root.
+
+Any accounts you do not need, should be deleted. Accounts that you do need should be renamed if possible.
+
+Passwords should follow the following best practices in order to provide good security and prevent brute forcing attacks:
+
+- Be at least 8 characters or more in length
+- Can not be found in a dictionary
+- Contain a combination of upper and lower case letters, numbers and special characters
+- Are not the same or similar to the username
+","http://www.oracle.com/pls/db111/db111.drilldown?remark=&word=default+passwords&expand_all=1,http://www.oracle.com/pls/db92/db92.drilldown?remark=&word=default+passwords&expand_all=1,https://docs.oracle.com/cd/B28359_01/server.111/b28320/statviews_5074.htm#REFRN23725"
+505,"gbl-pcats1.unix.gsm1900.org, 7228, ",Weak Passwords,Default database password,Low,Status=EXPIRED & LOCKED;Username=ORACLE_OCM,A default database password has not been changed.,"Oracle is installed with a list of well-known usernames and passwords. If a default password has not been changed, an attacker can easily break into a database.","There is a large number of well-known account/password combinations that can be used by an attacker to break into a database. 
+
+These account/password combinations are created from several sources:
+
+1 - installed by default with the database
+2 - installed when additional components or 3rd party applications are installed
+3 - installed when running samples
+
+After installing a database, you should immediately change any default usernames and passwords.",All versions of Oracle Database Server,"A password can be changed by executing this command:
+
+ALTER USER [username] IDENTIFIED BY [new password]
+
+If the user is a COMMON user in a multitenant database, command should be executed on the root.
+
+Any accounts you do not need, should be deleted. Accounts that you do need should be renamed if possible.
+
+Passwords should follow the following best practices in order to provide good security and prevent brute forcing attacks:
+
+- Be at least 8 characters or more in length
+- Can not be found in a dictionary
+- Contain a combination of upper and lower case letters, numbers and special characters
+- Are not the same or similar to the username
+","http://www.oracle.com/pls/db111/db111.drilldown?remark=&word=default+passwords&expand_all=1,http://www.oracle.com/pls/db92/db92.drilldown?remark=&word=default+passwords&expand_all=1,https://docs.oracle.com/cd/B28359_01/server.111/b28320/statviews_5074.htm#REFRN23725"
+505,"gbl-pcats1.unix.gsm1900.org, 7228, ",Weak Passwords,Default database password,Low,Status=EXPIRED & LOCKED;Username=SPATIAL_CSW_ADMIN_USR,A default database password has not been changed.,"Oracle is installed with a list of well-known usernames and passwords. If a default password has not been changed, an attacker can easily break into a database.","There is a large number of well-known account/password combinations that can be used by an attacker to break into a database. 
+
+These account/password combinations are created from several sources:
+
+1 - installed by default with the database
+2 - installed when additional components or 3rd party applications are installed
+3 - installed when running samples
+
+After installing a database, you should immediately change any default usernames and passwords.",All versions of Oracle Database Server,"A password can be changed by executing this command:
+
+ALTER USER [username] IDENTIFIED BY [new password]
+
+If the user is a COMMON user in a multitenant database, command should be executed on the root.
+
+Any accounts you do not need, should be deleted. Accounts that you do need should be renamed if possible.
+
+Passwords should follow the following best practices in order to provide good security and prevent brute forcing attacks:
+
+- Be at least 8 characters or more in length
+- Can not be found in a dictionary
+- Contain a combination of upper and lower case letters, numbers and special characters
+- Are not the same or similar to the username
+","http://www.oracle.com/pls/db111/db111.drilldown?remark=&word=default+passwords&expand_all=1,http://www.oracle.com/pls/db92/db92.drilldown?remark=&word=default+passwords&expand_all=1,https://docs.oracle.com/cd/B28359_01/server.111/b28320/statviews_5074.htm#REFRN23725"
+505,"gbl-pcats1.unix.gsm1900.org, 7228, ",Weak Passwords,Default database password,Low,Status=EXPIRED & LOCKED;Username=SPATIAL_WFS_ADMIN_USR,A default database password has not been changed.,"Oracle is installed with a list of well-known usernames and passwords. If a default password has not been changed, an attacker can easily break into a database.","There is a large number of well-known account/password combinations that can be used by an attacker to break into a database. 
+
+These account/password combinations are created from several sources:
+
+1 - installed by default with the database
+2 - installed when additional components or 3rd party applications are installed
+3 - installed when running samples
+
+After installing a database, you should immediately change any default usernames and passwords.",All versions of Oracle Database Server,"A password can be changed by executing this command:
+
+ALTER USER [username] IDENTIFIED BY [new password]
+
+If the user is a COMMON user in a multitenant database, command should be executed on the root.
+
+Any accounts you do not need, should be deleted. Accounts that you do need should be renamed if possible.
+
+Passwords should follow the following best practices in order to provide good security and prevent brute forcing attacks:
+
+- Be at least 8 characters or more in length
+- Can not be found in a dictionary
+- Contain a combination of upper and lower case letters, numbers and special characters
+- Are not the same or similar to the username
+","http://www.oracle.com/pls/db111/db111.drilldown?remark=&word=default+passwords&expand_all=1,http://www.oracle.com/pls/db92/db92.drilldown?remark=&word=default+passwords&expand_all=1,https://docs.oracle.com/cd/B28359_01/server.111/b28320/statviews_5074.htm#REFRN23725"

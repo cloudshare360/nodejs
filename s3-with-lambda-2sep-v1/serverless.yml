@@ -1,0 +1,36 @@
+service: s3-with-lambda-v3
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  stage: ${file(config.json):STAGE}
+  region: ${file(config.json):REGION}
+  iamRoleStatements:
+    - Effect: "Allow"
+      Action:
+        - "s3:GetObject"
+        - "s3:GetObjectVersion"
+        - "s3:PutObject"
+      Resource:
+        - "arn:aws:s3:::${file(config.json):S3_BUCKET}/*"
+
+
+functions:
+  assetingestionv3:
+    handler: functions/AssetIngestion/assetingestionv3.handler
+    events:
+      - s3:
+          bucket: ${file(config.json):S3_BUCKET}
+          event: s3:ObjectCreated:*
+          rules:
+            - suffix: .csv
+          existing: true
+
+# you can add CloudFormation resource templates here
+resources:
+ Resources:
+   s3WithLambda:
+     Type: AWS::S3::Bucket
+     Properties:
+       BucketName: ${file(config.json):S3_BUCKET}

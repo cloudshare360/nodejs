@@ -1,0 +1,58 @@
+[
+  {
+    "assetId": "tstpet14.unix.gsm1900.org_1526",
+    "hostName": "tstpet14.unix.gsm1900.org",
+    "port": "1526",
+    "databases": [
+      {
+        "csdmId": "APM0100261",
+        "dbBundle": "A01APP1"
+      },
+      {
+        "csdmId": "APM0225746",
+        "dbBundle": "A01MM1"
+      },
+      {
+        "csdmId": "APM0100267",
+        "dbBundle": "A01SC1"
+      },
+      {
+        "csdmId": "APM0100261",
+        "dbBundle": "A01APP1"
+      }
+    ],
+    "tags": {
+      "Environment": "Testing",
+      "dataSensitivity": "",
+      "dangerOfExploitation": "LDC",
+      "breadthOfConsumption": ""
+    },
+    "application": "Samson_CSM",
+    "os_type": "HP-UX",
+    "tier": "TIER_1"
+  },
+  {
+    "assetId": "tstpet15.unix.gsm1900.org_1526",
+    "hostName": "tstpet15.unix.gsm1900.org",
+    "port": "1526",
+    "databases": [
+      {
+        "csdmId": "APM0225746",
+        "dbBundle": "A01MM1"
+      },
+      {
+        "csdmId": "APM0100267",
+        "dbBundle": "A01SC1"
+      }
+    ],
+    "tags": {
+      "Environment": "Testing",
+      "dataSensitivity": "",
+      "dangerOfExploitation": "LDC",
+      "breadthOfConsumption": ""
+    },
+    "application": "Samson_Scheduler_App",
+    "os_type": "HP-UX",
+    "tier": "TIER_1"
+  }
+]

@@ -1,0 +1,2 @@
+﻿db_type,db_name,db_unique_name,db_port,host_name,ip_address,os_type,ba_name,ba_number,as_name,as_number,ba_owner,ba_director,ba_vp,as_usedfor,as_hostnamecode,as_supportgroup,as_supportgroupowner,as_director,as_vp,ba_pci,ba_sox,ba_cpni,ba_tier
+Oracle,A01APP1,A01APP1,1526,tstpet14.unix.gsm1900.org,0.0.0.0,HP-UX,Samson_CSM,APM0100260,Samson_CSM - Testing,APP0006238,Damion Rowe (DRowe7),Damion Rowe (DRowe7),Meg Knauth (MKnauth1),Testing,XSAM,Amdocs Infra Production,Suryam Musham (SMusham),Suryam Musham (SMusham),Meg Knauth (MKnauth1),N,N,Y,TIER_1
